@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 80px;
+}
+
+header ul{
+    column-gap: 40px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+
+header .container{
+    margin-right: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+
+
+body{
+    color: #333333;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.section-title{
+    display: inline-block;
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+footer{
+    height: 80px;
+    background-color: #edece7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+@media (max-width: 768px){
+    .section-title{
+        font-size: 44px;
+    }
+}
+
+.firstview{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    height: 800px;
+    background-image: url('image/au.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.myweb{
+    text-align: right;
+    margin-top: 130px;
+    margin-right: 11%;
+}
+
+.firstview h1{
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    font-size: 58px;
+}
+
+.firstview p{
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    font-size: 16px;
+}
+@media(max-width: 768px){
+    .firstview h1{
+        font-size: 56px;
+    }
+}
+
+.about{
+    padding: 140px 0;
+}
+
+.shizenpic{
+    border-radius: 30px;
+}
+
+.profile{
+    display: flex;
+    column-gap: 5%;
+}
+
+.profile h3{
+    margin-top: 72px;  
+    font-size: 24px;
+}
+
+.profile p{
+    margin-top: 24px;
+    font-size: 20px;
+}
+.profile img{
+    width: 47.5%;
+}
+
+.me{
+    margin-top: 200px;
+    column-gap: 5%;
+    display: flex;
+}
+
+.me h3{
+    margin-top: 8px;
+}
+
+.me p{
+    margin-top: 16px;
+}
+
+.me img{
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.me a{
+    display: inline-block;
+    margin-top: 32px;
+    font-weight: bold;
+    border-bottom: 1px solid #333333;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.favorite {
+    padding: 140px 0;
+    text-align: center;
+    background-image: url(image/haikei.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(red, green, blue, alpha);
+    border-radius: 16px;
+}
+
+.favorite-content{
+    margin-top: 60px;
+    width: 320px;
+    padding: 40px;
+    background-color: rgba(255,255,255,80%);
+    border-radius: 16px;
+}
+
+.favorite h3{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.favorite p{
+    margin-top: 8;
+    font-size: 16px;
+    text-align: left;
+}
+
+.favorite img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.favorite-contents{
+    display: flex;
+    column-gap: 16px;
+    justify-content: space-between;
+}
+
+.fa.section-title{
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.works{
+    padding: 140px 0;
+    text-align: center;
+    background-color: #fffdf3;
+}
+
+.works .section-title{
+    border-bottom: 3px solid #ff9900;
+}
+
+.works-content{
+    display: flex;
+    text-align: left;
+    column-gap: 32px;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0,0,0,15%);
+}
+
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.works-content img{
+    width: 320px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.works-content h3{
+    font-size: 28px;
+}
+
+.works-content p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.contact{
+    text-align: center;
+    padding: 140px 0;
+}
+
+.contact .section-title{
+    border-bottom: 3px solid #ff9900;
+}
+
+.contact p{
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+
+.contact a{
+    display: inline-block;
+    width: 200px;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #00acee;
+    letter-spacing: 0.1em;   
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.contact .container{
+    max-width: 800px;
+}
+
+.contact .sns .discord{
+    background-color: #32a1bd;
+}
+
+.contact .sns{
+    display: flex;
+    margin-top: 100px;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+@media(max-width: 768px){
+    .about{
+        padding: 80px 0;
+    }
+
+    .profile{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+
+    .profile h3{
+        margin-top: 24px;
+    }
+
+    .profile p{
+        margin-top: 16px;
+    }
+
+    .profile img{
+        width: 100%;
+    }
+
+    .me{
+        flex-direction: column;
+        row-gap: 40px;
+        margin-top: 100px;
+    }
+
+    .me a{
+        margin-top: 24px;
+    }
+
+    .works{
+        padding: 80px 0;
+    }
+
+    .works-content{
+        flex-direction: column;
+        row-gap: 24px;
+        padding: 20px;
+    }
+
+    .works-content h3{
+        display: flex;
+        column-gap: 16px;
+        font-size: 28px;
+    }
+
+    .contact{
+        padding: 80px 0;
+    }
+
+    .contact a{
+        width: 100%;
+        line-height: 60px;
+    }
+
+    .contact p{
+        font-size: 20px;
+    }
+
+    .contact .sns{
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 59px;
+    }
+}

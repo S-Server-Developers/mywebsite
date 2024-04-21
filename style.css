@@ -277,7 +277,15 @@ a {
 }
 
 .contact .sns .discord{
-    background-color: #32a1bd;
+    background-color: #5341de;
+}
+
+.contact .sns .twitter{
+    background-color: #1d9bf0;
+}
+
+.contact .sns .instagram{
+    background-color: #ff69b4;
 }
 
 .contact .sns{
